@@ -31,3 +31,9 @@ This project is a Weather Data Collection System that demonstrates core DevOps p
         python-dotenv
         requests
     
+Store api key, s3 bucket name in the .env
+echo "AWS_BUCKET_NAME=weather-dashboard-${RANDOM}"  >> .env
+echo "OPENWEATHER_API_KEY=f1............654"  >> .env
+
+run the program with python src/weather_dashboard.py
+
